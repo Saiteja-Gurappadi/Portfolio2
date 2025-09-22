@@ -4,7 +4,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
 const Home = () => {
   return (
     <div className="flex justify-center h-[100vh] text-white bg-gradient-to-tl from-black via-slate-900 to-black">
-      <div className="flex flex-col items-center gap-[20px] w-[40%] mt-20">
+      <div className="flex flex-col items-center gap-[20px] w-[40%] mt-[75px]">
         <p className="text-4xl font-bold border border-solid p-[60px] border-white border-2 rounded-full">
           ST
         </p>
@@ -25,7 +25,7 @@ const Home = () => {
            <p className="bg-gray-800 text-3xl p-[10px] rounded-lg "><LuLinkedin /></p> 
            <p className="bg-gray-800 text-3xl p-[10px] rounded-lg "><MdOutlineMailOutline /></p> 
         </div>
-        <div className="text-white flex gap-[15px] mt-[13px]">
+        <div className="text-white flex gap-[15px] mt-[18px]">
             <button className="py-[10px] px-[25px] flex relative items-center gap-[10px] rounded-lg  bg-gradient-to-tr from-gray-400 to-slate-950"><LuSparkles className=""/> <LuArrowDown className="absolute right-0 top-0 text-[20px]"/> Explore My Work</button>
             <button className="py-[10px] px-[40px] border border-white rounded-lg  ">Download CV</button>
         </div>
