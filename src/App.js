@@ -1,10 +1,14 @@
 import './App.css';
+import About from './Components/About';
+import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-tl from-black via-slate-900 to-black">
+    <div className="">
      <Navbar/>
+     <Home/>
+     <About/>
     </div>
   );
 }
