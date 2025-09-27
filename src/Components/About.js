@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className=" h-[100vh] flex flex-col gap-[30px] items-center p-[30px] text-center text-white bg-gradient-to-tr border-t border-gray-600 border-solid  from-black via-slate-900 to-black">
       <div className="flex flex-col gap-[30px]">
-        <h1 className=" text-5xl font-bold ">About Me</h1>
+        <h1 className=" text-4xl ">About Me</h1>
         <p className="text-gray-400">
           Passionate about creating digital experiences that push the <br />{" "}
           boundaries of what's possible
@@ -14,7 +14,7 @@ const About = () => {
       <div className="flex mt-[30px] gap-[30px]">
         <div className=" relative">
           <p className="bg-gray-800 h-[300px] w-[370px] rounded-2xl"></p>
-          <p className="p-[22px] bg-gray-800 rounded-xl absolute bottom-0 transform translate-y-[25px] translate-x-[20px] shadow-xl shadow-white/10 ">
+          <p className="p-[22px] bg-gray-800 rounded-xl absolute bottom-0 transform translate-y-[25px] translate-x-[20px] shadow-xl shadow-slate/10 ">
             <img src={PF1} alt="" className="h-[250px] w-[200px] rounded-xl" />
           </p>
         </div>
