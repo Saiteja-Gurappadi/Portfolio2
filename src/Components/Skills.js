@@ -17,12 +17,12 @@ import { BiLogoVisualStudio } from "react-icons/bi";
 
 const Skills = () => {
   return (
-    <div className=" bg-gradient-to-tl from-black via-slate-900 to-black h-[100vh] text-white flex flex-col items-center gap-[35px]">
-      <h1 className="text-4xl">My Skills</h1>
+    <div className="p-[75px] bg-gradient-to-tl from-black via-slate-900 to-black h-[100vh] text-white flex flex-col items-center gap-[35px]" id="skills">
+      <h1 className="text-4xl ">My Skills</h1>
       <p className="text-gray-400">
         technologies that are used to develop my digital experiences
       </p>
-        <div className="flex gap-[60px]">
+        <div className="flex gap-[60px] relative z-10">
           <div className="bg-gray-800 p-7  w-[250px] h-[280px] rounded-xl shadow-2xl border border-solid border-gray-700">
             <div className="">
               <FaLaptopCode className="text-2xl mb-[1px]" />

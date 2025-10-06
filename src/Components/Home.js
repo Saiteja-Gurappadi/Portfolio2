@@ -1,13 +1,14 @@
-import React from "react";
 import { LuArrowDown, LuGithub, LuLinkedin, LuSparkles } from "react-icons/lu";
 import { MdOutlineMailOutline } from "react-icons/md";
+
+
 const Home = () => {
   return (
-    <div className="flex justify-center h-[100vh] text-white bg-gradient-to-tl from-black via-slate-900 to-black">
-      <div className="flex flex-col items-center gap-[20px] w-[40%] mt-[75px]">
-        <p className="text-4xl font-bold border border-solid p-[60px] border-white border-2 rounded-full">
+    <div className="flex justify-center h-[100vh] text-white bg-gradient-to-tl from-black via-slate-900 to-black" id="home">
+      <div className="flex flex-col items-center justify-center gap-[20px] w-[40%] mt-[75px]">
+        {/* <p className="text-4xl font-bold border border-solid p-[60px] border-white border-2 rounded-full">
           ST
-        </p>
+        </p> */}
         <p className="text-5xl font-bold text-center">Hello,<br/>I'm Saiteja Gurappadi</p>
         <p className="font-extralight text-2xl text-gray-400">Web Developer</p>
         <div className="font-thin text-[13px] text-gray-500">
@@ -26,8 +27,9 @@ const Home = () => {
            <p className="bg-gray-800 text-3xl p-[10px] rounded-lg "><MdOutlineMailOutline /></p> 
         </div>
         <div className="text-white flex gap-[15px] mt-[18px]">
-            <button className="py-[10px] px-[25px] flex relative items-center gap-[10px] rounded-lg  bg-gradient-to-tr from-gray-400 to-slate-950"><LuSparkles className=""/> <LuArrowDown className="absolute right-0 top-0 text-[20px]"/> Explore My Work</button>
-            <button className="py-[10px] px-[40px] border border-white rounded-lg  ">Download CV</button>
+           <a href="#projects"> <button className="py-[10px] px-[25px] flex relative items-center gap-[10px] rounded-lg  bg-gradient-to-tr from-gray-400 to-slate-950" ><LuSparkles className=""/> <LuArrowDown className="absolute right-0 top-0 text-[20px]"/> Explore My Work</button></a>
+            <a href="/SAI_TEJA.pdf" download> <button className="py-[10px] px-[40px] border border-white rounded-lg hover:bg-gray-900 ">      
+Download CV</button></a>
         </div>
       </div>
     </div>

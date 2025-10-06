@@ -5,3 +5,6 @@
 .animate-spotlight {
   animation: spotlight 2s infinite alternate;
 }
+html {
+  scroll-behavior: smooth;
+}

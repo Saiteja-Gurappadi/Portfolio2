@@ -1,10 +1,13 @@
-import React from "react";
+
 import PF1 from "../Images/PF1.jpg";
+
 
 const About = () => {
   return (
-    <div className=" h-[100vh] flex flex-col gap-[30px] items-center p-[30px] text-center text-white bg-gradient-to-tr border-t border-gray-600 border-solid  from-black via-slate-900 to-black">
-      <div className="flex flex-col gap-[30px]">
+    <div className=" h-[100vh] flex flex-col gap-[30px] items-center p-[30px] text-center text-white bg-gradient-to-tr border-t border-gray-600 border-solid  from-black via-slate-900 to-black" id="about">
+     
+      <div className="flex flex-col gap-[30px] mt-[40px]">
+
         <h1 className=" text-4xl ">About Me</h1>
         <p className="text-gray-400">
           Passionate about creating digital experiences that push the <br />{" "}
