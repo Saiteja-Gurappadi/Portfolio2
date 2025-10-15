@@ -16,10 +16,6 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.shape.rectangle {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
 .shape.triangle {
   width: 0;
   height: 0;

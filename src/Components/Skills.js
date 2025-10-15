@@ -14,10 +14,12 @@ import {
   SiExpress,
 } from "react-icons/si";
 import { BiLogoVisualStudio } from "react-icons/bi";
+import Shapes from "./Shapes";
 
 const Skills = () => {
   return (
     <div className="p-[75px] bg-gradient-to-tl from-black via-slate-900 to-black h-[100vh] text-white flex flex-col items-center gap-[35px]" id="skills">
+      <Shapes/>
       <h1 className="text-4xl ">My Skills</h1>
       <p className="text-gray-400">
         technologies that are used to develop my digital experiences

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const SHAPE_COUNT = 20; // Adjust the number of shapes
+const SHAPE_COUNT = 1; // Adjust the number of shapes
 
 const getRandomShape = () => {
   const shapes = ["circle", "rectangle", "triangle"];
@@ -36,7 +36,7 @@ const Shapes = () => {
   }, []);
 
   return (
-    <div className="absolute top-0 left-0 w-full h-[400%] overflow-hidden pointer-events-none z-20">
+    <div className="absolute  left-0 w-full h-[100vh] overflow-hidden pointer-events-none z-20">
       {shapes.map((shape, idx) => (
         <div
           key={idx}
