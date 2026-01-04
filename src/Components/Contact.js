@@ -2,9 +2,14 @@ import React from "react";
 import { FiMessageCircle } from "react-icons/fi";
 const Contact = () => {
   return (
-    <div className="h-[100vh]  bg-gradient-to-tl from-black via-slate-900 to-black text-white flex items-center justify-center " id="contact">
-      <h1>Get in Touch</h1>
-      <p>Ready To Create Something Together</p>
+    <div
+      className="h-[100vh]  bg-gradient-to-tl from-black via-slate-900 to-black text-white text-center flex flex-row "
+      id="contact"
+    >
+      <div>
+        <h1>Get in Touch</h1>
+        <p>Ready To Create Something Together</p>
+      </div>
       <div className="flex relative z-10">
         <div className="">
           <h1>Lets Connect</h1>

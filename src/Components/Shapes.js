@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const SHAPE_COUNT = 1; // Adjust the number of shapes
+const SHAPE_COUNT = 10; // Adjust the number of shapes
 
 const getRandomShape = () => {
   const shapes = ["circle", "rectangle", "triangle"];

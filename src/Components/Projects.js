@@ -11,7 +11,7 @@ const Projects = () => {
       <h1 className="text-4xl ">My Projects</h1>
       <div className="grid grid-cols-3 gap-[25px] ">
         {MyProjectsLists.map((data) => (
-          <div className="bg-gray-700/30 h-[550px] w-[330px] rounded-3xl backdrop-blur-md flex flex-col overflow-hidden ">
+          <div className="bg-gray-700/30 h-[550px] w-[330px] rounded-3xl backdrop-blur-md flex flex-col overflow-hidden border border-solid border-gray-700 ">
             <img
               src={data.img}
               alt=""

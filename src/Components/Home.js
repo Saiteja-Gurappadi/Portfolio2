@@ -1,4 +1,4 @@
-import { LuArrowDown, LuGithub, LuLinkedin, LuSparkles } from "react-icons/lu";
+import { LuArrowDown, LuGithub, LuLinkedin,LuSparkles } from "react-icons/lu";
 import { MdOutlineMailOutline } from "react-icons/md";
 import Shapes from "./Shapes";
 
@@ -49,7 +49,7 @@ const Home = () => {
               Explore My Work
             </button>
           </a>
-          <a href="/SAI_TEJA.pdf" download>
+          <a href="/SAI_TEJA_.pdf" download>
             {" "}
             <button className="py-[10px] px-[40px] border border-white rounded-lg hover:bg-gray-900 ">
               Download CV
